@@ -31,8 +31,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 170px;
+    padding-right: 170px;
 
 }
 
@@ -93,6 +93,10 @@ nav a{
 }
 
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section style */
 
 .about{
@@ -101,4 +105,19 @@ nav a{
     background-color: #FFF8F3;
     margin: 130px 0px;
     
+}
+.about-info-container{
+    display:flex ;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+/* what i do section style */
+.skill{
+    display: flex;
+    justify-content: space-between;
 }
