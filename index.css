@@ -139,7 +139,7 @@ main section{
 
 .resume-container{
     display: flex;
-    justify-content: space-between;
+   gap:50px;
 }
 .resume-column-title{
     color:#474747;
@@ -149,11 +149,15 @@ main section{
 .resume-title{
     font-size: 25px;
     font-weight: 700;
+    color:#474747;
+    margin-bottom: 10px;
 }
 .resume-institute{
     font-size: 20px;
     font-weight: 500;
     color:#757575;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .resume-info{
     font-size: 16px;
@@ -164,4 +168,31 @@ hr{
 }
 #center{
     text-align: center;
+}
+/* footer related style */
+
+.footer{
+   
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin-top: 50px;
+    padding: 90px 120px;
+    display:flex;
+    gap: 100px;
+}
+
+.input-field{
+    margin-bottom: 20px;
+    display:block;
+    padding:18px 35px;
+    color: #757575;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
+.footer-content{
+    width:50%;
+}
+.social-links a{
+    margin-right: 25px;
 }
